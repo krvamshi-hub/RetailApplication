@@ -34,3 +34,9 @@ Keep-Alive: timeout=60
 
 Connection: keep-alive
 **80.0**
+
+
+# Sonar qube setup
+# Once SonarLint is installed on IntelliJ and connected to Sonarqube run the command
+# mvn clean verify sonar:sonar -Dsonar.projectKey=RetailApplication -Dsonar.projectName='RetailApplication' -Dsonar.host.url=http://192.168.1.68:9000 -Dsonar.token=<Obtain from environment variable>
+
